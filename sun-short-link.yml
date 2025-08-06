@@ -1,0 +1,224 @@
+port: 8080
+links:
+  - name: "github-home"
+    url: "https://github.com/hslr-s"
+    type: 302
+  
+  # 打赏
+  - name: "donate"
+    url: "https://github.com/hslr-s/sun-panel/blob/master/doc/donate.md"
+    type: 302
+  - name: "donate_zh_cn"
+    url: "https://doc.sun-panel.top/zh_cn/introduce/donate.html"
+    type: 302
+  - name: "donate_en"
+    url: "https://doc.sun-panel.top/introduce/donate.html"
+    type: 302
+  
+  # 反馈
+  - name: "feedback"
+    url: "https://github.com/hslr-s/sun-panel/issues"
+    type: 302
+  
+  # 社区
+  - name: "discussions"
+    url: "https://github.com/hslr-s/sun-panel/discussions"
+    type: 302
+  
+  # 发布页面
+  - name: "releases"
+    url: "https://github.com/hslr-s/sun-panel/releases"
+    type: 302
+
+  # 更新日志zh_cn
+  - name: "update_log_zh_cn"
+    url: "https://doc.sun-panel.top/zh_cn/update/update_log.html"
+    type: 302
+  
+  # 更新日志en
+  - name: "update_log_en"
+    url: "https://github.com/hslr-s/sun-panel/releases"
+    type: 302
+
+  # QQ Group
+  - name: "qq_group"
+    url: "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=K6UII6aEPZUeDRIPOEpOSJZH-Vmr_RPu&authKey=jEXhnVekLbDDx5UkQzKtd3bRmhZggkGBxmvW4NT5LLIAFP7toMmqABwvkANGHbLb&noverify=0&group_code=831615449"
+    type: 302
+
+  # TG-Group
+  - name: "tg_group"
+    url: "https://t.me/+bwOFXt6zXf43Njk1"
+    type: 302  
+
+  # 交流群导航页
+  - name: "groupChat_zh_cn"
+    url: "https://doc.sun-panel.top/zh_cn/introduce/author_groups.html"
+    type: 302  
+  - name: "groupChat_en"
+    url: "https://doc.sun-panel.top/introduce/author_groups.html"
+    type: 302  
+    
+  # 授权网站首页
+  - name: "proAuthSite"
+    url: "http://pro.sun-panel.top"
+    type: 302  
+    
+  # 授权网站首页 中文
+  - name: "proAuthSite_zh_cn"
+    url: "http://pro.sun-panel.top"
+    type: 302  
+    
+  # 授权网站首页 英文
+  - name: "proAuthSite_en"
+    url: "http://pro.sun-panel.top"
+    type: 302  
+    
+  - name: "proAuthSiteRegister"
+    url: "http://pro.sun-panel.top"
+    type: 302  
+
+  # PRO常见问题-旧版本
+  - name: "proAuthSiteFAQ"
+    url: "http://pro.sun-panel.top"
+    type: 302  
+    
+  # PRO常见问题中文
+  - name: "proAuthSiteFAQ_zh_cn"
+    url: "http://pro.sun-panel.top"
+    type: 302  
+ 
+  # PRO常见问题英文
+  - name: "proAuthSiteFAQ_en"
+    url: "http://pro.sun-panel.top"
+    type: 302  
+    
+  # 文档常见问题中文
+  - name: "faq_zh_cn"
+    url: "https://doc.sun-panel.top/zh_cn/faq/faq"
+    type: 302  
+ 
+  # 文档常见问题英文
+  - name: "faq_en"
+    url: "https://doc.sun-panel.top/faq/faq"
+    type: 302  
+    
+    
+  # 功能比较 中文
+  - name: "funcDescription_zh_cn"
+    url: "https://pro.sun-panel.top/#/hpage/pro"
+    type: 302  
+    
+  # 功能比较 英文
+  - name: "funcDescription_en"
+    url: "https://pro.sun-panel.top/#/hpage/pro"
+    type: 302  
+    
+  # OpenApi 文档zh_cn
+  - name: "openApiDoc_zh_cn"
+    url: "https://doc.sun-panel.top/zh_cn/openapi/v1"
+    type: 302  
+  
+  # OpenApi 文档en
+  - name: "openApiDoc_en"
+    url: "https://doc.sun-panel.top/openapi/v1"
+    type: 302  
+
+  # 演示站点
+  - name: "demo"
+    url: "http://sunpaneldemo.enianteam.com/"
+    type: 302  
+    
+  # 美化教程 文档zh_cn
+  - name: "only_name_beautify_doc_zh_cn"
+    url: "https://doc.sun-panel.top/zh_cn/advanced/landscap.html"
+    type: 302  
+    
+  # 美化教程 文档en
+  - name: "only_name_beautify_doc_en"
+    url: "https://doc.sun-panel.top/advanced/landscap.html"
+    type: 302  
+    
+  # 浏览器扩展 文档zh_cn
+  - name: "browser_plugin_doc_zh_cn"
+    url: "https://doc.sun-panel.top/zh_cn/browser_extension/"
+    type: 302  
+    
+  # 浏览器扩展 文档en
+  - name: "browser_plugin_doc_en"
+    url: "https://doc.sun-panel.top/browser_extension/"
+    type: 302  
+
+  # 浏览器扩展更新日志 文档zh_cn
+  - name: "browser_plugin_update_log_zh_cn"
+    url: "https://doc.sun-panel.top/zh_cn/browser_extension/update_log"
+    type: 302  
+    
+  # 浏览器扩展更新日志 文档en
+  - name: "browser_plugin_update_log_en"
+    url: "https://doc.sun-panel.top/browser_extension/update_log"
+    type: 302  
+  
+  # 浏览器扩展云盘分享链接 文档zh_cn
+  - name: "browser_plugin_kuake"
+    url: "https://pan.quark.cn/s/a7a33636387a"
+    type: 302  
+
+  # ===========
+  # FAQ Group
+  # ===========
+
+  # 卡片异常解决方案-中文
+  - name: "faq_docker_card_abnormal_zh_cn"
+    url: "https://doc.sun-panel.top/zh_cn/faq/faq.html#docker_card_abnormal"
+    type: 302  
+
+  # 卡片异常解决方案-英文
+  - name: "faq_docker_card_abnormal_en"
+    url: "https://doc.sun-panel.top/faq/faq.html#docker_card_abnormal"
+    type: 302  
+
+  # 卡片异常解决方案-中文
+  - name: "faq_docker_run_error_zh_cn"
+    url: "https://doc.sun-panel.top/zh_cn/faq/faq.html#docker_run_error"
+    type: 302  
+
+  # 卡片异常解决方案-英文
+  - name: "faq_docker_run_error_en"
+    url: "https://doc.sun-panel.top/faq/faq.html#docker_run_error"
+    type: 302
+
+  # 更新日志 - 正式版 - 多语言版本 https://links.sun-panel.top/update_log_lang?lang=zh_cn&version=1.1.0
+  - name: update_log_lang
+    type: 302
+    urls_query_name: lang
+    urls:
+      - name: zh_cn
+        url: https://doc.sun-panel.top/zh_cn/update/update_log.html#v{version}
+      - name: en
+        url: https://github.com/hslr-s/sun-panel/releases/tag/v{version}
+    replace:
+      - query_name: version 
+        keyword: '{version}'
+
+  # 更新日志 - Beta版 - 多语言版本 https://links.sun-panel.top/update_log_beta_lang?lang=zh_cn&version=1.1.0
+  - name: update_log_beta_lang
+    type: 302
+    urls_query_name: lang
+    urls:
+      - name: zh_cn
+        url: https://doc.sun-panel.top/zh_cn/update/update_log_beta.html#v{version}
+      - name: en
+        url: https://github.com/hslr-s/sun-panel/releases/tag/v{version}
+    replace:
+      - query_name: version
+        keyword: '{version}'
+
+  # 备份、迁移 - 多语言版本
+  - name: backup_migration_lang
+    type: 302
+    urls_query_name: lang
+    urls:
+      - name: zh_cn
+        url: https://doc.sun-panel.top/zh_cn/usage/backup.html
+      - name: en
+        url: https://doc.sun-panel.top/usage/backup.html
